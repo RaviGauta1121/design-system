@@ -20,10 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -46,20 +42,12 @@
       "last 1 safari version"
     ]
   },
-  "scripts": {
-  "storybook:build": "build-storybook",
-  "storybook:serve": "serve -s storybook-static"
-},"scripts": {
-  "storybook:build": "build-storybook",
-  "vercel:deploy": "npm run storybook:build && vercel --prod"
-}
-
-,
   "devDependencies": {
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-interactions": "^8.6.12",
     "@storybook/addon-onboarding": "^8.6.12",
     "@storybook/blocks": "^8.6.12",
+    "@storybook/cli": "^8.6.12",
     "@storybook/preset-create-react-app": "^8.6.12",
     "@storybook/react": "^8.6.12",
     "@storybook/react-webpack5": "^8.6.12",
